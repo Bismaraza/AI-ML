@@ -60,3 +60,44 @@ print("The value of b after swapping:", b)
 print("The value of c after swapping:", c)
 
 
+# Question 7
+
+temp = input("Enter temperature in Celsius:")
+temp = float(temp)
+
+Fahrenheit = (temp * 9/5) + 32
+
+print("The temperature in Fahrenheit is:", Fahrenheit)
+
+# Question 8
+
+Radius = int(input("Enter the radius of the circle:"))
+pie = 3.14
+Area = pie * Radius * Radius
+
+print(Area)
+
+# Question 9
+
+Principal = (input("Enter the principal amount:"))
+Time = (input("Enter the Time:"))
+Rate = (input("Enter the Rate:"))
+
+Rate= float(Rate)
+Time= float(Time)
+Principal= float(Principal)
+
+SI = (Principal * Rate * Time)/100
+print(SI)
+
+
+# Question 10
+
+num = float(input("Enter a decimal number: "))
+
+integer = int(num)
+
+fractional = num - integer
+
+print("Integer part:", integer)
+print("Fractional part:", fractional)
