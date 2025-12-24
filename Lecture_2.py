@@ -43,3 +43,12 @@ elif (username != "admin"):
     print("Wrong username")
 else:
     print("Wrong password")
+
+# # Question 5
+
+number = int(input("Enter a number:"))
+
+if (number % 2 == 0):
+    print("Even")
+else:
+    print("ODD")
