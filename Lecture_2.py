@@ -52,3 +52,8 @@ if (number % 2 == 0):
     print("Even")
 else:
     print("ODD")
+
+# # Question 6 
+age = 12
+status = "Adult" if age >=20 else "Not Adult"
+print(status)
