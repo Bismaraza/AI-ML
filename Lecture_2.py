@@ -61,10 +61,55 @@
 
 
 
- #Loops Exercises
-Count = 1
-while (Count <= 10):
-    print("Hello World", Count)
-    Count += 1
+#  #Loops Exercises
+# Count = 10
+# while (Count >= 1):
+#     print(Count)
+#     Count -= 1
 
-print("After Loop Count = ", Count)
+# print("After Loop Count = ", Count)
+
+# # Question 2 
+
+ #Loops Exercises
+# Count = 0
+# while (Count < 10):
+#     print(Count)
+#     Count += 1
+
+# # In majority cases, We start i from 0 and the sign will be < 
+
+# # Question 3 
+# i = 0 
+# while i<10: 
+#     print( 6 * (i+1))
+#     i = i+1 
+
+# # Question 4
+# i = 1
+# while i<=10: 
+#     if( i % 6 ==0):
+#         break
+#     print(i)
+#     i = i+1 
+
+# # Question 5
+# i = 1
+# while i<=10: 
+#     if( i % 3 ==0):
+#         i = i+1
+#         continue
+#     print(i)
+#     i = i+1 
+
+# print("End of Loop")
+
+# # Question 6
+# i = 0
+# while i< 10: 
+#     i = i+1
+#     if( i % 2 ==0):
+#         continue
+#     print(i)
+
+## For Loop Exercises
