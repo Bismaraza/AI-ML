@@ -1,59 +1,70 @@
-# Question 1
+# # Conditional Statements Exercises 
+# # Question 1
 
-age = int(input(" Enter your age:"))
+# age = int(input(" Enter your age:"))
 
-if age>= 18:
-    print("You can Vote")
+# if age>= 18:
+#     print("You can Vote")
    
-else:
-    print("You cannot Vote")
+# else:
+#     print("You cannot Vote")
 
 
-print("Thank you")
+# print("Thank you")
 
-# Question 2 
+# # Question 2 
 
-color= input("Enter the color of the traffic light:")
-if color == "Red":
-    print("Stop")
-elif color == "Yellow":
-    print("Wait")
-elif color == "Green":
-    print("Go")
-else: 
-    print("Invalid color")
+# color= input("Enter the color of the traffic light:")
+# if color == "Red":
+#     print("Stop")
+# elif color == "Yellow":
+#     print("Wait")
+# elif color == "Green":
+#     print("Go")
+# else: 
+#     print("Invalid color")
 
-# Question 3 
-age = int(input("Enter your age:"))
-if age <= 13:
-    print("Child")
-elif age > 13 and age < 18:
-    print("Teenager")
-else:
-    print("Adult")
+# # Question 3 
+# age = int(input("Enter your age:"))
+# if age <= 13:
+#     print("Child")
+# elif age > 13 and age < 18:
+#     print("Teenager")
+# else:
+#     print("Adult")
 
-# Question 4
+# # Question 4
 
-username = input("Enter your username:")
-password = input("Enter your password:")
+# username = input("Enter your username:")
+# password = input("Enter your password:")
 
-if (username == "admin" and password == "pass"):
-    print("Login successful")
-elif (username != "admin"):
-    print("Wrong username")
-else:
-    print("Wrong password")
+# if (username == "admin" and password == "pass"):
+#     print("Login successful")
+# elif (username != "admin"):
+#     print("Wrong username")
+# else:
+#     print("Wrong password")
 
-# # Question 5
+# # # Question 5
 
-number = int(input("Enter a number:"))
+# number = int(input("Enter a number:"))
 
-if (number % 2 == 0):
-    print("Even")
-else:
-    print("ODD")
+# if (number % 2 == 0):
+#     print("Even")
+# else:
+#     print("ODD")
 
-# # Question 6 
-age = 12
-status = "Adult" if age >=20 else "Not Adult"
-print(status)
+# # # Question 6 
+# age = 12
+# status = "Adult" if age >=20 else "Not Adult"
+# print(status)
+
+
+
+ #Loops Exercises
+Count = 1
+while (Count <= 10):
+    print("Hello World", Count)
+    Count += 1
+
+print("After Loop Count = ", Count)
