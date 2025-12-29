@@ -112,4 +112,25 @@
 #         continue
 #     print(i)
 
-## For Loop Exercises
+## For Loop Exercise
+# for i in range(5):
+#     print("Hello World")
+
+
+# word = "Artificial"
+
+# ans = 0
+# for ch in word:
+#     if(ch == 'a' or ch == 'A' or ch == 'i' or ch == 'I' or ch == 'o' or ch == 'O' or ch == 'e' or ch == 'E' or ch == 'u' or ch == 'U'):
+#         ans = ans + 1
+
+
+# print( ans)
+
+# for i in range( 1, 10):
+#     print(i)
+
+sum =0 
+for i in range( 1, 6):
+    sum = sum + i
+print( sum)
