@@ -153,4 +153,18 @@
 #         continue
 #     print(i)
 
+## Funcations Exercises
+## Question 1
+# def hello():
+#     print("Hello World")
 
+# hello()
+# hello()
+ 
+# Question 2 
+def avg(a, b, c = 2):
+    s = (a + b + c)/ 3
+    return s 
+
+result = avg( 1,2)
+print( result)
