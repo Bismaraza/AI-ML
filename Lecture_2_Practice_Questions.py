@@ -26,13 +26,24 @@
 
 ## Question 3
 
-def print_even_numbers(a, b):
-    start = min(a, b)
-    end = max(a, b)
+# def print_even_numbers(a, b):
+#     start = min(a, b)
+#     end = max(a, b)
     
-    for num in range(start, end + 1):
-        if num % 2 == 0:
-            print(num)
+#     for num in range(start, end + 1):
+#         if num % 2 == 0:
+#             print(num)
 
-# Example usage
-print_even_numbers(17, 2)
+# print_even_numbers(17, 2)
+
+## Question 4 
+
+# def print_digit(n):
+#     while n>0: 
+#         digit = n % 10
+#         print(digit)
+#         n = n // 10 
+
+# print_digit(1234)
+
+## Question 5
