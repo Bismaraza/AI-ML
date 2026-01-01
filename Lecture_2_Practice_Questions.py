@@ -1,4 +1,4 @@
-## QUESTION 1
+# # QUESTION 1
 
 # def get_largest( a, b, c):
 #     if (a >= b) and (a >= c):
@@ -24,7 +24,7 @@
 #     tax = salary * (25 /100)
 #     print("Your tax is: ", tax)
 
-## Question 3
+# # Question 3
 
 # def print_even_numbers(a, b):
 #     start = min(a, b)
@@ -36,7 +36,7 @@
 
 # print_even_numbers(17, 2)
 
-## Question 4 
+# # Question 4 
 
 # def print_digit(n):
 #     while n>0: 
@@ -47,3 +47,21 @@
 # print_digit(1234)
 
 ## Question 5
+# num = int(input("Enter a number: "))
+# count = 0
+# while num> 0:
+#     count += 1
+#     num = num // 10
+
+# print("The number of digits in the given number is:", count)
+
+## Question 6 
+num = int(input("Enter a number: ")) # 23 
+remainder = 0 
+sum = 0
+while num > 0: # 2 
+    remainder = num % 10  # 2
+    sum= sum + remainder  # 3+2 
+    num = num // 10 # num = 0 
+print("The sum of digits in the given number is:", sum)
+
