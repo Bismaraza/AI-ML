@@ -21,3 +21,17 @@
 
 # average = sum / len(my_list)
 # print(average)
+
+# # Input two list from user
+# list1 = list(input("Enter a list 1: "))
+# list2 = list(input("Enter list 2: "))
+
+# print(list1)
+# print(list2)
+
+# print(type(list1))
+
+# final_list = list1+ list2
+# print(final_list)
+# final_list.sort()
+# print(final_list)
