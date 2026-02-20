@@ -1,19 +1,17 @@
-class car : 
-    brand = "toyota"
-    name= "Bisma"
-    
-    def __init__(self,name): # Self : storing the current instance of class 
-            self.name = name
+class Laptop:
+    storage_type = "SSD"
 
+    def __init__(self, Ram ,Storage):
+        self.Ram = Ram
+        self.Storage = Storage
+    @classmethod    
+    def get_storage_type(cls):
+        print(cls.storage_type)
 
-    def get_cgpa(self):
-          return self.get_cgpa
-    
+    def get_info(self):
+        print(f"Laptop has {self.Ram} Ram & {self.Storage} {self.storage_type}")
+            
+l1 = Laptop('Bisma', "512")
 
-car1 = car(" Raza")
-car2 = car(" Shrada")
-print(car1.name)
-print(car2.name)
-
-car1.get_cgpa()
-car2.get_cgpa()
+l1.get_info()
+l1.get_storage_type()
